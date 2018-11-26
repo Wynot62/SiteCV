@@ -112,7 +112,8 @@ body{
     
 }
 #fond img{
-    
+    position:relative;
+    right:-2000px;
     width:75%;
     height: 500px;
 
@@ -130,10 +131,14 @@ body{
     color:white;
     border-bottom: 10px solid white;
 }
-#h2{
+#TextP{
+    position:relative;
+    left:-2000px;
+}
+h2{
     letter-spacing: 3px;
 }
-#para{
+p{
     padding-left:5%;
     padding-right:5%;
 }
